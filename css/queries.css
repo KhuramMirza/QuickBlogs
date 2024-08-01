@@ -1,0 +1,282 @@
+@media (max-width: 95em) {
+    .content-left h1 {
+        font-size: 2.4rem;
+    }
+
+    p {
+        /*font-size: 2rem;*/
+        line-height: 3rem;
+    }
+
+    .error-message h3 {
+        font-size: 1.8rem;
+    }
+
+    .options-container {
+        width: 7vw;
+    }
+}
+
+@media (max-width: 75em) {
+    .content-left h1 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+    .error-message h3 {
+        font-size: 1.8rem;
+    }
+
+    .footer p {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 3.6rem;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 50rem;
+        margin: 1.2rem auto;
+    }
+
+    .content-left {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-create--blog img {
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .btn-options img {
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .home-articles-show {
+        /*align-self: flex-start;*/
+    }
+
+    .content-left p {
+        padding: 0 3.6rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .content-right img {
+        height: 30rem;
+        width: 30rem;
+
+    }
+
+    .blogs-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .home-articles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 2.4rem 0;
+    }
+
+    .home-article {
+        margin-bottom: 3.6rem;
+    }
+
+    .home-article .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left .img-container {
+        padding: 0;
+    }
+
+    .left .article-content {
+        align-self: flex-start;
+    }
+
+    .home-articles-show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2.4rem 0;
+    }
+
+    .form-box {
+        align-items: center;
+    }
+
+    .btn-submit {
+        align-self: center;
+    }
+
+    .btn-create--blog {
+        margin-left: 3rem;
+    }
+
+    .error-message h3 {
+        font-size: 1.6rem;
+    }
+
+    .input {
+        width: 20vw;
+    }
+
+    .article-content h2 a {
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 67em) {
+
+    .navigation {
+        justify-content: space-around;
+        max-height: 10vh;
+    }
+
+    .footer {
+        max-height: 10vh;
+    }
+
+    .close-nav-options {
+        font-size: 7.8rem;
+    }
+
+    .closePopupBtn {
+        font-size: 7.8rem;
+    }
+
+    .error-closePopupBtn {
+        font-size: 4.8rem;
+    }
+
+    .error-message {
+        height: 20vh;
+        width: 40vw;
+    }
+
+    .content-left h1 {
+        font-size: 3.6rem;
+    }
+
+    .navigation .menu-toggle {
+        display: block;
+    }
+
+    .nav-left {
+        display: none;
+    }
+
+    a {
+        font-size: 3rem;
+    }
+
+    .footer p {
+        font-size: 3rem;
+    }
+
+    .content-left p {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+    p {
+        font-size: 2.4rem;
+        line-height: 3.6rem;
+    }
+
+    input, textarea {
+        font-size: 2.4rem;
+    }
+
+    label {
+        font-size: 3rem;
+    }
+
+    .btn {
+        font-size: 2.4rem;
+    }
+
+    .input {
+        font-size: 2.4rem;
+        width: 30vw;
+    }
+
+    .small-options a {
+        font-size: 3.6rem;
+    }
+
+    .nav-contact {
+        justify-content: flex-start;
+    }
+
+    h2 {
+        font-size: 3.6rem;
+    }
+
+    span {
+        font-size: 2.4rem;
+    }
+
+    .article-content h2 a {
+        font-size: 3rem;
+    }
+
+    .menu-toggle {
+        font-size: 4.8rem;
+    }
+
+    .article-content {
+        margin-top: 1.8rem
+    }
+
+    .article-content span {
+        margin-top: 1.2rem;
+    }
+
+    .blog-details h2 {
+        font-size: 4.8rem;
+    }
+
+    .blog-details {
+        margin-bottom: 3rem;
+    }
+
+    .blog-details span {
+        font-size: 3rem;
+    }
+
+    .blog-content p {
+        margin-top: 4.8rem;
+    }
+
+    .blog-content span {
+        font-size: 2.4rem;
+    }
+
+    .upload-img {
+        margin-bottom: 4.8rem
+    }
+
+}
+
+

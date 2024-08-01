@@ -1,0 +1,98 @@
+:root {
+    --col-bg-main: orange;
+    --col-bg-secondary: #ffe3e3;
+    --col-bg-tertiary: #fad7da;
+    --col-btn-primary: black;
+    --col-btn-hover: #e63946;
+}
+
+.max-width-1 {
+    width: 80vw
+}
+
+.max-height-1 {
+    height: 15vh
+}
+
+.max-height-2 {
+    height: 30vh;
+}
+
+.max-height-3 {
+    height: 10vh;
+}
+
+.max-height-4 {
+    height: 100vh;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.padding-1 {
+
+}
+
+.btn {
+    /*background-color: var(--col-btn-primary);*/
+    font-size: 1.6rem;
+    color: black;
+    padding: 1.6rem 1.6rem;
+    border: 0.2rem solid black;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: var(--col-btn-hover);
+    color: white;
+}
+
+.input {
+    padding: 1.6rem 1.6rem;
+    border: 0.2rem solid black;
+    border-radius: 1.2rem;
+    font-size: 1.6rem;
+    margin: 0 1.6rem;
+    width: 15vw;
+}
+
+.margin-sides {
+    margin: 0 1.2rem;
+}
+
+.border-radius-1 {
+    border-radius: 1.2rem;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#blurBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+}
+
+.blurBackground-error {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 1002;
+}

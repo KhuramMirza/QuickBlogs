@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QuickBlogs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/utils.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/admin.css">
+    <link rel="stylesheet" href="./css/queries.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">
+    <script type="module" src="./js/create-blog.js"></script>
+    <script type="module" src="./js/show-post.js"></script>
+    <script src="./js/navigation.js"></script>
+
+</head>
+<body>
+<nav class="navigation max-height-1 max-width-1 margin-auto" id="nav">
+    <div class="menu-toggle" id="menu-toggle">
+        &#9776;
+    </div>
+    <div class="nav-left">
+        <span>QuickBlogs</span>
+        <ul>
+            <li><a href="/index.html#nav">Home</a></li>
+            <li><a href="/admin.html">Dashboard</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="nav-right">
+        <form action="/search.html" method="get">
+            <label for="search"></label>
+            <input class="input input-search" type="text" id="search" name="query"
+                   placeholder="Search for articles">
+            <button class="btn btn-search">Search</button>
+        </form>
+    </div>
+
+</nav>
+<div class="max-width-1 margin-auto border-radius-1">
+    <hr>
+</div>
+
+<main class="blogs-container max-width-1 margin-auto">
+    <!-- Add blog posts here -->
+    <div class="create-blog">
+        <h2>Your Articles</h2>
+        <button class="btn-create--blog">
+            <img src="./img/plus-circle.svg" alt="Create new blog">
+        </button>
+    </div>
+    <div class="home-articles">
+        <!--        Articles will be added dynamically-->
+
+        <!--
+        <div class="home-article margin-sides" data-id="">
+            <div class="left">
+                <div class="img-container">
+                    <img src="./img/upload.svg" alt="Article Image">
+                </div>
+                <div class="article-content">
+                    <h2><a href="/blog-post.html">Article Title</a></h2>
+                    <span>Author</span>
+                    <span>Date | 5 min read</span>
+                </div>
+            </div>
+            <button class="btn-options">
+                <img src="./img/dots-three-vertical.svg" alt="Blog options">
+            </button>
+
+            <div class="options-container hidden">
+                <button class="btn-edit">Edit</button>
+                <button class="btn-delete">Delete</button>
+            </div>
+        </div>
+        -->
+    </div>
+</main>
+<footer class="footer max-height-3">
+    <p>Copyright &copy; 2021 QuickBlogs. All rights reserved.</p>
+    <a href="https://www.freepik.com">Designed by Freepik</a>
+</footer>
+<div class="nav-options" id="nav-options">
+    <span class="close-nav-options" id="close-nav-options">&times;</span>
+    <div class="small-options">
+        <span>QuickBlogs</span>
+        <ul>
+            <li><a href="/index.html#nav">Home</a></li>
+            <li><a href="/admin.html">Dashboard</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </div>
+</div>
+<div class="edit-from-container hidden">
+    <div class="edit-form-popup">
+        <span class="closePopupBtn">&times;</span>
+        <div class="left-form">
+            <div class="upload-img">
+                <img src="./img/upload.svg" alt="Upload image">
+                <button class="btn btn-upload">Upload</button>
+                <input type="file" id="fileInput" accept="image/*" style="display: none;">
+            </div>
+            <label for="title">Title</label>
+            <input type="text" id="title" placeholder="Enter the title">
+            <label for="author">Author</label>
+            <input type="text" id="author" placeholder="Enter author name">
+            <label for="read">Read</label>
+            <input type="text" id="read" placeholder="Enter read time in minutes">
+            <label for="content">Content</label>
+            <textarea name="content" id="content" cols="30" rows="10" placeholder="Enter the content"></textarea>
+            <button class="btn btn-save">Save</button>
+        </div>
+    </div>
+
+    <div id="blurBackground"></div>
+    <div class="error-message hidden">
+        <span class="error-closePopupBtn">&times;</span>
+        <h3>Please fill all the input fields & also Upload image</h3>
+    </div>
+    <div class="blurBackground-error hidden"></div>
+</div>
+</body>
+</html>

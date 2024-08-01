@@ -1,0 +1,41 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.blog-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container {
+    width: 100%;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+
+.img-container img {
+    height: 40rem;
+    width: 100rem;
+    align-self: center;
+    border-radius: 1.8rem;
+}
+
+.blog-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+}
+
+.blog-content span {
+    margin-bottom: 1.2rem;
+    font-weight: bold;
+}
+
+.blog-content {
+    min-height: 70vh;
+}
+
+

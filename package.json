@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "uuid": "^10.0.0"
+  },
+  "name": "quick-blogs",
+  "version": "1.0.0",
+  "description": "Create simple blogs in one click",
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel inex.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Khuram Mirza",
+  "license": "ISC"
+}

@@ -1,0 +1,52 @@
+form {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    width: 100%;
+    margin-top: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+
+}
+
+input, textarea {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 1.6rem;
+    padding: 1.2rem 2.4rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    border: none;
+    background-color: var(--col-bg-tertiary);
+    color: black;
+    margin-bottom: 1.6rem;
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 1.2rem;
+}
+
+label {
+    margin-top: 1.8rem;
+    /*margin-bottom: 0.8rem;*/
+    font-size: 1.8rem;
+}
+
+.form-box {
+    /*width: 50%;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 70vh;
+    /*height: 75vh;*/
+}
+
+.btn-submit {
+    align-self: flex-end;
+    margin-bottom: 1.2rem;
+}
+
+.contact-left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem
+}
